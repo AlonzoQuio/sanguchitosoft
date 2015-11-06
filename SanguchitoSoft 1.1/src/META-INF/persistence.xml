@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="SanguchitoPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.epissoft.sanguchito.persistencia.Almacen</class>
+    <class>com.epissoft.sanguchito.persistencia.CierreCaja</class>
+    <class>com.epissoft.sanguchito.persistencia.EgresoKardex</class>
+    <class>com.epissoft.sanguchito.persistencia.UnidadMedida</class>
+    <class>com.epissoft.sanguchito.persistencia.Cargo</class>
+    <class>com.epissoft.sanguchito.persistencia.TipoFacturacion</class>
+    <class>com.epissoft.sanguchito.persistencia.TipoGasto</class>
+    <class>com.epissoft.sanguchito.persistencia.CategoriaProducto</class>
+    <class>com.epissoft.sanguchito.persistencia.CategoriaExtra</class>
+    <class>com.epissoft.sanguchito.persistencia.Kardex</class>
+    <class>com.epissoft.sanguchito.persistencia.Tipousuario</class>
+    <class>com.epissoft.sanguchito.persistencia.Proveedor</class>
+    <class>com.epissoft.sanguchito.persistencia.RegistroFalta</class>
+    <class>com.epissoft.sanguchito.persistencia.TipoFalta</class>
+    <class>com.epissoft.sanguchito.persistencia.TipoCliente</class>
+    <class>com.epissoft.sanguchito.persistencia.AperturaCaja</class>
+    <class>com.epissoft.sanguchito.persistencia.Facturacion</class>
+    <class>com.epissoft.sanguchito.persistencia.Producto</class>
+    <class>com.epissoft.sanguchito.persistencia.Turno</class>
+    <class>com.epissoft.sanguchito.persistencia.FacturacionDetalle</class>
+    <class>com.epissoft.sanguchito.persistencia.Promociones</class>
+    <class>com.epissoft.sanguchito.persistencia.Extras</class>
+    <class>com.epissoft.sanguchito.persistencia.Empleado</class>
+    <class>com.epissoft.sanguchito.persistencia.Gastos</class>
+    <class>com.epissoft.sanguchito.persistencia.TipoDocumento</class>
+    <class>com.epissoft.sanguchito.persistencia.IngresoKardex</class>
+    <class>com.epissoft.sanguchito.persistencia.ProductoAlmacen</class>
+    <class>com.epissoft.sanguchito.persistencia.CategoriaProductoAlmacen</class>
+    <class>com.epissoft.sanguchito.persistencia.Cliente</class>
+    <class>com.epissoft.sanguchito.persistencia.Usuario</class>
+    <class>com.epissoft.sanguchito.persistencia.FacturaciondExtra</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://hard-plum.db.elephantsql.com:5432/hqwzxyfi"/>
+      <property name="javax.persistence.jdbc.password" value="MGnLXRQtfoVG_weLGP1iUAgCJO2j4Cp8"/>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+      <property name="javax.persistence.jdbc.user" value="hqwzxyfi"/>
+    </properties>
+  </persistence-unit>
+</persistence>
